@@ -1,7 +1,7 @@
 Hello helm
 ==========
 
-hello-helm is an example of helm charts repo used for training and/or testing. 
+hello-helm is an example of helm charts repo used for training and/or testing.
 
 ## How It Works
 
@@ -11,16 +11,15 @@ create and publish docs like this:
 ```console
 $ helm create mychart
 $ helm package mychart
-$ helm repo index --url https://rawmind0.github.com/tscharts
+$ helm repo index --url https://rawmind0.github.io/hello-helm/.
 $ git checkout gh-pages
 $ git add mychart-0.1.0.tgz
 $ git commit -m "Added mychart-0.1.0 chart"
 $ git push origin gh-pages
 ```
 
-From there, I can do a `helm repo add tscharts
-https://rawmind0.github.com/tscharts`
-
+From there, I can do a `helm repo add hello-helm
+https://rawmind0.github.io/hello-helm/.`
 
 ## License
 Copyright (c) 2014-2018 [Rancher Labs, Inc.](http://rancher.com)
