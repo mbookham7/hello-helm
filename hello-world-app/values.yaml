@@ -5,8 +5,8 @@
 replicaCount: 2
 
 image:
-  repository: rawmind
-  tag: stable
+  repository: rawmind/hello-world-app
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
@@ -24,7 +24,7 @@ ingress:
     # kubernetes.io/tls-acme: "true"
   hosts:
     - host: hello-world-app.test.dev
-      paths: []
+      paths: ["/"]
 
   tls: []
   #  - secretName: chart-example-tls
