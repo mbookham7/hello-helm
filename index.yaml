@@ -3,11 +3,11 @@ entries:
   hello-world-app:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-07T03:13:35.198846+01:00"
+    created: "2019-11-07T03:56:56.402103+01:00"
     description: hello-world-app helm chart for Kubernetes
     digest: 78d7d03be8ddf6201fd8507f2f758f82428e614e41e324d0aef090d27ee4db39
     name: hello-world-app
     urls:
-    - hello-world-app-0.1.0.tgz
+    - https://rawmind0.github.io/hello-helm/hello-world-app-0.1.0.tgz
     version: 0.1.0
-generated: "2019-11-07T03:13:35.198218+01:00"
+generated: "2019-11-07T03:56:56.400593+01:00"
